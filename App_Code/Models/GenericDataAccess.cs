@@ -6,17 +6,17 @@ using System.Linq;
 using System.Web;
 using System.Web.Configuration;
 
-namespace Apartment.Models
+namespace ApartmentManagement.Models
 {
     public class GenericDataAccess
     {
         public static SqlCommand CreateCommand()
         {
             string connectString =
-                WebConfigurationManager.ConnectionStrings["qlch01"].ConnectionString;
+                WebConfigurationManager.ConnectionStrings["ApartmentConnection"].ConnectionString;
             SqlConnection connection = new SqlConnection(connectString);
             SqlCommand command = connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
+            command.CommandType = CommandType.Text;
             return command;
         }
 
@@ -32,6 +32,7 @@ namespace Apartment.Models
                 reader.Close();
             }
             finally { command.Connection.Close(); }
+            
             return table;
         }
 

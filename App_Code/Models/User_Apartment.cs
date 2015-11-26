@@ -6,7 +6,7 @@ using System.Web;
 /// <summary>
 /// Summary description for User_Apartment
 /// </summary>
-namespace Apartment.Models
+namespace ApartmentManagement.Models
 {
     public class User_Apartment
     {

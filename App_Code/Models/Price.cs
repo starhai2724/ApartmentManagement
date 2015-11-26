@@ -8,7 +8,8 @@ using System.Web;
 /// </summary>
 /// 
 
-    namespace Apartment.Models { 
+    namespace ApartmentManagement.Models
+{ 
 public class Price
 {
     int idPrice { get; set; }

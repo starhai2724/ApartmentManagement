@@ -7,7 +7,7 @@ using System.Web;
 /// Summary description for Water
 /// </summary>
 /// 
-namespace Apartment.Models
+namespace ApartmentManagement.Models
 {
     public class Water
     {

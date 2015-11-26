@@ -7,7 +7,7 @@ using System.Web;
 /// Summary description for Customer
 /// </summary>
 /// 
-namespace Apartment.Models
+namespace ApartmentManagement.Models
 {
     public class Customer
     {

@@ -7,7 +7,7 @@ using System.Web;
 /// Summary description for Bill
 /// </summary>
 /// 
-namespace Apartment.Models
+namespace ApartmentManagement.Models
 {
     public class Bill
     {
@@ -33,6 +33,9 @@ namespace Apartment.Models
 
         public Bill()
         {
+          
+
+
 
         }
     }

@@ -7,8 +7,7 @@ using System.Web;
 /// Summary description for Car
 /// </summary>
 /// 
-namespace Apartment.Models
-{
+namespace ApartmentManagement.Models { 
     public class Car
     {
         int id { get; set; }
